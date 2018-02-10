@@ -29,7 +29,10 @@
     <script src="https://rawgit.com/feiss/aframe-environment-component/33e7980/dist/aframe-environment-component.min.js"></script>
     
     <script src="https://rawgit.com/google-ar/three.ar.js/f9603ee/dist/three.ar.js"></script>
-    <script src="https://rawgit.com/chenzlabs/aframe-ar/827e9db/dist/aframe-ar.min.js"></script>
+    <script src="https://rawgit.com/chenzlabs/aframe-ar/47aa7fa/dist/aframe-ar.min.js"></script>
+    
+    <!-- Prevent touch causing flicker on iOS. -->
+    <style> * { -webkit-tap-highlight-color: rgba(0,0,0,0); } </style>    
   </head>
   <body>
 
